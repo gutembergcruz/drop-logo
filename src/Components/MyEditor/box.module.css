@@ -1,0 +1,79 @@
+.box {
+  width: 553px;
+  height: 177px;
+  border-radius: 8px;
+  background-color: #f2f5f8;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 90px;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  cursor: default;
+}
+
+.image {
+  padding: 0;
+}
+
+.range {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.close{
+background-color: transparent;
+border: none;
+position: absolute;
+top: 35.75px;
+right: 28.75px;
+cursor: pointer;
+}
+
+.range p {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #677489;
+}
+
+.range button {
+  background-color: #3d485f;
+  border-radius: 16px;
+  width: 109px;
+  height: 32px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.range input[type="range"] {
+  height: 18px;
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 248px;
+  background-color: transparent;
+}
+
+.range input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 4px;
+  cursor: pointer;
+  background: #b9d1ff;
+  border-radius: 5px;
+}
+.range input[type="range"]::-webkit-slider-thumb {
+  height: 12px;
+  width: 12px;
+  border-radius: 25px;
+  background: #3f80ff;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -4px;
+}

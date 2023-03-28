@@ -1,0 +1,49 @@
+.box{
+    width: 553px;
+    height: 177px;
+    border-radius: 8px;
+    background-color: #F2F5F8;
+    border: 2px dashed #C7CDD3;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    gap: 32px;
+    padding: 0px 32px;
+    box-sizing: border-box;
+    cursor: default;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.text p{
+    color: #C64D32;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.text button{
+    font-size: 16px;
+    font-weight: 500;
+    color: #3D485F;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.close{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    top: 35.75px;
+    right: 28.75px;
+    cursor: pointer;
+    }
